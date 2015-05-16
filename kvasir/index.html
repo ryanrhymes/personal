@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Kvasir - A Semantic Recommendation System</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/kvasir.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#me" class="icon fa-home active"><span>Home</span></a>
+						<a href="#demo" class="icon fa-youtube-play"><span>Demo</span></a>
+						<!--<a href="#search" class="icon fa-search"><span>Search</span></a>-->
+						<a href="#code" class="icon fa-github-square"><span>Code</span></a>
+						<a href="#doc" class="icon fa-file-text-o"><span>Doc</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						
+						<!-- Me -->
+							<article id="me" class="panel">
+								<header>
+									<h1>Kvasir</h1>
+									<p>A Semantic Recommendation System <br>
+										  <a class="social_btn twitter_btn" href="https://twitter.com/ryan_liang"></a>
+										  <a class="social_btn weibo_btn" href="http://www.weibo.com/olutta"></a>
+										  <a class="social_btn gplus_btn" href="https://www.google.com/+RyanLiang"></a>
+										  <a class="social_btn linkedin_btn" href="http://uk.linkedin.com/in/liangsuomi/"></a>
+										  <a class="social_btn blogger_btn" href="http://ryanrhymes.blogspot.com/"></a>
+									</p>
+								</header>
+
+								<a href="#demo" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+									<img src="images/demo_8.png" alt="" />abc
+								</a>
+							</article>
+
+
+
+						<!-- Demo start -->
+							<article id="demo" class="panel">
+								<header>
+									<h2>Demo</h2>
+								</header>
+
+								<section>
+									<div class="row">
+										<div class="6u">
+										  <iframe width="360" height="270" src="https://www.youtube.com/embed/dxFMD_acuwo" frameborder="0" allowfullscreen></iframe>
+										</div>
+										<div class="6u">
+										  <iframe width="360" height="270" src="https://www.youtube.com/embed/9Y-MAKOyBpM" frameborder="0" allowfullscreen></iframe>
+										</div>
+									</div>
+								</section>
+
+								<header>
+									<h2>Screenshots</h2>
+								</header>
+
+								<section>
+									<div class="row">
+										<div class="4u">
+											<a href="images/demo_1.png" class="image fit"><img src="images/demo_1.png" alt=""></a>
+										</div>
+										<div class="4u">
+											<a href="images/demo_6.png" class="image fit"><img src="images/demo_6.png" alt=""></a>
+										</div>
+										<div class="4u">
+											<a href="images/demo_3.png" class="image fit"><img src="images/demo_3.png" alt=""></a>
+										</div>
+									</div>
+									<div class="row">
+										<div class="4u">
+											<a href="images/demo_7.png" class="image fit"><img src="images/demo_7.png" alt=""></a>
+										</div>
+										<div class="4u">
+											<a href="images/demo_2.png" class="image fit"><img src="images/demo_2.png" alt=""></a>
+										</div>
+										<div class="4u">
+											<a href="images/demo_5.png" class="image fit"><img src="images/demo_5.png" alt=""></a>
+										</div>
+									</div>
+								</section>
+							</article>
+						<!-- Demo end -->
+
+
+						<!-- Search start --> 
+							<article id="search" class="panel">
+							  <header>
+							    <h2>Try a URL and see what Kvasir finds ...</h2>
+							  </header>
+							  <div class="row">
+							    <div class="12u">
+							      http:// <input type="text" id="kvasir_search" name="search" style="width:70%" placeholder="e.g., en.wikipedia.org/wiki/Machine_learning"> <input type="submit" value="Search" onclick="kvasir_submit()">
+							    </div>
+							  </div>
+							</article>
+						<!-- Search end -->
+
+
+						<!-- Doc start --> 
+							<article id="doc" class="panel">
+								<header>
+									<h2>If you are interested in technical details ...</h2>
+								</header>
+								<p> Kvasir is the acronym for Knowledge ViA Semantic Information Retrieval, it is also the name of a Scandinavian god in Norse mythology who travels around the world to teach and spread knowledge and is considered extremely wise. At the core, Kvasir implements an LSA-based index and search service. For more details, please read our technical report as blow. </p>
+								<p><a href="https://cs.helsinki.fi/liang.wang/publications/kvasir-embedded.pdf" class="icon fa-file-pdf-o fa-2x report_btn1"> Technical Report</a></p>
+								<p>Kvasir will be demonstrated in <a href="http://www.www2015.it/" style="text-decoration:none; font-weight:bold">WWW'15</a> conference in Florence, Italy, May 2015. </p>
+							</article>
+						<!-- Doc end -->
+
+
+						<!-- Code start -->
+							<article id="code" class="panel">
+								<header>
+									<h2>Source code</h2>
+								</header>
+								<p>
+								  Kvasir is an open-source project. The source code of its key components are hosted on Github and publicly accessible. We will release the complete source code of Kvasir after our paper gets accepted. We welcome researchers and developers to use our code, hack it and extend it!
+								</p>
+
+								<div class="row infobox">
+								  <div class="3u"><a href="https://github.com/ryanrhymes/panns" class="icon fa-github fa-2x github_btn1">PANNS</a></div>
+								  <div class="9u">
+								    <p class='txtsty1'>A popular and highly optimized python library for indexing and searching approximate k-nearest neighbors in very high dimensional spaces, with over 50,000+ downloads so far!</p>
+								  </div>
+								</div>
+
+
+								<div class="row infobox">
+								  <div class="3u"><a href="https://github.com/ryanrhymes/ssvd" class="icon fa-github fa-2x github_btn1">SSVD</a></div>
+								  <div class="9u">
+								    <p class='txtsty1'>Stochastic singular value decomposition for huge matrices on Apache Spark. The fat matrices are first thinned by rank-revealing QR estimation for dimension reduction.</p>
+								  </div>
+								</div>
+
+
+								<div class="row infobox">
+								  <div class="3u"><a href="https://github.com/ryanrhymes/kvasir_frontend" class="icon fa-github fa-2x github_btn1">KGUI</a></div>
+								  <div class="9u">
+								    <p class='txtsty1'>Kvasir frontend is currently implemented as a lightweight Chrome extension using Javascript. The frontend connects the backend with a simple RESTful API.
+</p>
+								  </div>
+								</div>
+
+
+								<div class="row infobox">
+								  <div class="3u"><span href="" class="icon fa-github fa-2x github_btn2">KVASIR</span></div>
+								  <div class="9u">
+								    Coming soon ...
+								  </div>
+								</div>
+
+
+							</article>
+						<!-- Code end -->
+
+
+					</div>
+		
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; <a class='lnksty1' href='http://cs.helsinki.fi/liang.wang'>Liang Wang</a></li><li>Design: HTML5 UP</li>
+						</ul>
+					</div>
+		
+			</div>
+
+			<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+			<script>
+			  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			  e.src='//www.google-analytics.com/analytics.js';
+			  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			  ga('create','UA-3284249-2');ga('send','pageview');
+			</script>
+
+	</body>
+</html>

@@ -1,0 +1,60 @@
+
+.txtsty1 {
+    font-size: 1em;
+    line-height: 120%;
+}
+
+.lnksty1 {
+    text-decoration: none;
+}
+
+.infobox {
+    //border: 1px solid black;
+    padding: 0px;
+}
+
+.github_btn1 {
+    color: #660066;
+}
+
+.github_btn2 {
+    color: gray;
+}
+
+.report_btn1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #CC0000;
+    margin-bottom: 1em;
+}
+
+.social_btn{
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-right: 6px;
+    height: 64px;
+    width: 64px;
+    text-decoration: none;
+}
+
+.twitter_btn{
+    background-image: url("../images/icon/twitter.png");
+}
+
+.weibo_btn{
+    background-image: url("../images/icon/weibo.png");
+}
+
+.gplus_btn{
+    background-image: url("../images/icon/gplus.png");
+}
+
+.linkedin_btn{
+    background-image: url("../images/icon/linkedin.png");
+}
+
+.blogger_btn{
+    background-image: url("../images/icon/blogger.png");
+}
