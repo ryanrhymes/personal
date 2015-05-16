@@ -1,0 +1,10 @@
+Liang Wang; Kangasharju, J., "Measuring large-scale distributed systems: case of BitTorrent Mainline DHT," Peer-to-Peer Computing (P2P), 2013 IEEE Thirteenth International Conference on , vol., no., pp.1,10, 9-11 Sept. 2013
+doi: 10.1109/P2P.2013.6688697
+keywords: {computer network security;peer-to-peer computing;stochastic processes;Bernoulli process;BitTorrent Mainline DHT;Sybil attacks;active overlay systems;active user estimation;crawling inaccuracy modeling;large-scale distributed system measurement;network anomaly detection;network size estimation;peer-to-peer networks;Accuracy;Crawlers;Estimation;Instruments;Monitoring;Peer-to-peer computing;Protocols},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6688697&isnumber=6688689
+
+
+Liang Wang; Kangasharju, J., "Real-world sybil attacks in BitTorrent mainline DHT," Global Communications Conference (GLOBECOM), 2012 IEEE , vol., no., pp.826,832, 3-7 Dec. 2012
+doi: 10.1109/GLOCOM.2012.6503215
+keywords: {computer crime;peer-to-peer computing;BitTorrent Mainline DHT network;DHT attack;P2P content-distribution system;distributed hash table;distributed tracker;honeypot;network attack;network threat;real-world Sybil attack},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6503215&isnumber=6503052

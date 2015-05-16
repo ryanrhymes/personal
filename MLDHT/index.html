@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>BitTorrent Mainline DHT Measurement</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">MLDHT</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li class="active"><a href="#publications">Publications</a></li>
+                            <li class="active"><a href="#sourcecode">Source Code</a></li>
+                            <li class="active"><a href="#dataset">Dataset</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+	                                <li><a href="http://cs.helsinki.fi/u/jakangas/">Prof. Jussi Kangasharju</a></li>
+                                    <li><a href="http://cs.helsinki.fi/liang.wang">Ph.D candidate Liang Wang</a></li>                                
+                                    <li class="divider"></li>
+                                    <li class="nav-header">Research Group</li>
+                                    <li><a href="http://www.cs.helsinki.fi/en/node/7579">Collaborative Networking (CoNe)</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            
+            <div class="hero-unit">
+                <h2>BitTorrent Mainline DHT Measurement</h2>
+                <p><br/></p>
+                       
+                <p>We will update this website soon. You can find more information in the publication "<a class="link01" href="http://cs.helsinki.fi/liang.wang">Liang Wang</a>, <a class="link01" href="http://www.cs.helsinki.fi/u/jakangas/">Jussi Kangasharju</a>, <a class="link02" href="http://cs.helsinki.fi/liang.wang/publications/P2P2013_13.pdf">Measuring Large-Scale Distributed Systems: Case of BitTorrent Mainline DHT</a>, in Proceedings of <a class="link01" href="http://www.p2p13.org/">IEEE Conference on Peer-to-Peer Computing</a>, Trento, Italy, September 2013." </p>
+                
+	            <p>For any further questions, please contact <a class="btn" href="http://fi.linkedin.com/in/liangsuomi/">Liang Wang</a>.</p>
+            </div>
+
+            
+            <div class="row">
+                <div class="span" id="publication">
+                	<h3>Publications</h3>
+                    <ul>
+                    	<li>Measuring Large-Scale Distributed Systems: Case of BitTorrent Mainline DHT, IEEE P2P 2013, [ <a href="http://cs.helsinki.fi/liang.wang/publications/P2P2013_13.pdf">pdf</a> | <a href="http://cs.helsinki.fi/liang.wang/publications/P2P2013_slides.pdf">slides</a> | <a href="reference_1.bib">BibTex</a> ]</li>
+	                <li>Real-World Sybil Attacks in BitTorrent Mainline DHT, GLOBECOM 2012, [ <a href="http://cs.helsinki.fi/liang.wang/publications/security.pdf">pdf</a> | <a href="http://cs.helsinki.fi/liang.wang/publications/security_slides.pdf">slides</a> | <a href="reference_2.bib">BibTex</a> ]</li>
+                    </ul>    
+                </div>
+            </div>
+
+
+            <!-- Example row of columns -->
+            <div class="row">
+                <div style="text-align:center; margin:auto; padding:auto;">
+                    <img src="img/dht_sys_week.png">
+                </div>
+            </div>
+
+            
+            
+            <div class="row">
+                <div class="span" id="sourcecode">
+                	<h3>Source Code</h3>
+                	<p>You can find the python code for the core components of our monitoring system as follows.</p>
+                    <ul>
+                    	<li><a href="./code/crawler.py">crawler.py</a> : core crawler of the monitoring system.</li>
+	                    <li><a href="./code/injector.py">injector.py</a> : inject the controlled nodes into the MLDHT system.</li>
+	                    <li><a href="./code/maintainer.py">maintainer.py</a> : maintain a node pool to bootstrap a crawl.</li>
+	                    <li><a href="./code/logparser.py">logparser.py</a> : a simple tool to parse the raw sample file.</li>
+	                    <li><a href="./code/honeypot.I.py">honeypot I</a>, <a href="./code/honeypot.II.py">II</a> and <a href="./code/honeypot.III.py">III</a> : three types of MLDHT honeypot to detect sybil attacks.</li>
+	                    <li><a href="./code/honeypot.bt.py">honeypot.bt.py</a> : BitTorrent honeypot to detect system anomalies.</li>
+                    </ul>    
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="span" id="dataset">
+                	<h3>Missing Node &amp; Sybil Attack</h3>
+                	<p>The conclusion in our work and implication from BitTorrent measurement project has significant impact on our understanding of BitTorrent system, even though this topic has been intensively studies for over a decade.</p>
+                	<p>Not like many people originally thought that BitTorrent is declining, our measurement shows BitTorrent is going strong. Concerning the actual number of nodes in the system, our results show that <font color="red">the number varies between 15 and 27 million per day with a very clear daily churn pattern</font>. European users dominate both in terms of number of users and over the course of the past 30 months of our study we have seen that the number of users <font color="red">increased by about 10% from 2011 to 2012</font>, but has remained stable since then.</p>
+                	<p>The wrong image that the public had on BitTorrent is partly due to the fact that academia failed to provide a sound measurement on this arguably the largest active overlay in the world. In the project, we first identify a systematic error in previous works measuring the number of nodes in DHT-based BitTorrent networks (e.g., Mainline DHT, KAD, Vuze) and present
+the cause behind it, which is <font color="red">missing node</font> issue. We then develop an efficient and accurate methodology called <font color="red">Correction Factor</font> for measuring the size of Mainline DHT. Our methodology gives an accurate estimate of the system size in seconds. The methodology is based on modeling the inaccuracies of the crawling as a Bernoulli process.</p>
+					<p>Later in the project, we considered vulnerabilities in BitTorrent Mainline DHT and have found out that not only is it very vulnerable to simple attacks, but also that attack-like activities are happening on a wide scale. We have identified two <font color="red">routing table attacks</font>, <font color="red">horizontal attack</font> and <font color="red">vertical attack</font>, and discussed their potential damages. Through an extensive measurement study since December 2010, we have identified that both of these attacks are happening in the real network. We have analyzed their exact behavior through <font color="red">honeypots</font> and have shown the scale of the on-going activities. We must stress that we have no concrete proof of actual malicious activities; our work only shows that the scale of attacks is large enough for this to be a concern.</p>
+                </div>
+            </div>
+            
+            
+            
+            <div class="row">
+                <div class="span" id="dataset">
+                	<h3>Real-world Event in BitTorrent System</h3>
+                	<p><img src="img/jp_earthquake.png" width="300px" align="right"> The effects of real-world events can be clearly reflected in BitTorrent System. We took a closer look at the network size during large holidays, like Christmas (December 24–26, 2010) and the Chinese New Year (February 3, 2011), and local disasters like the March 11, 2011 Japan earthquake. </p>
+                	<p>During Christmas we observed a clear drop in the number of European users starting from Christmas Eve and continuing until the end of Christmas. We saw a total drop of about 1 million users spread across Europe. Interestingly, the number of users in China at the same time went up by about 10%, but descended back to its usual level after Christmas.</p>
+                	<p>During the Chinese New Year, the number of users in China dropped by about 10% and we saw similar numbers in many other Asian countries. In Europe and US this event caused no change in the usage patterns.</p>
+                	<p>Figure on the right shows the number of Japanese users between March 8 and March 14. The day of the earthquake, March 11, shows a significant drop in the number of users, but within about 24 hours the number of users had recovered to almost normal levels and after about a week had returned to more or less normal. In retrospect, this is not so surprising, since most of the Japanese population lives away from the worst affected areas so there are no “network” reasons for a change in behavior.</p>
+                </div>
+            </div>
+            
+            
+            
+            
+            <div class="row">
+                <div class="span" id="dataset">
+                	<h3>BitTorrent Demographics</h3>
+                	<p>Figure blow shows the network evolution in different geo-region, and the CDF of session length in MLDHT for the whole network (“SYS”) and some selected countries. We can see that Korean and US nodes are more likely to have longer session length, whereas Chinese users have typically shorter than average sessions. Generally, about 50% of the nodes have session length less then 200 minutes, while 3% have session length longer than 9000 minutes.</p>
+                	<p>Our session length data can be approximated with an exponential function and a better fit is obtained with the sum of two exponential functions. Thus, it appears that the <font color="red">session lengths in MLDHT are exponentially distributed</font>. The fit is shown in figure. We used the trust-region algorithm in Matlab to perform a Nonlinear Least Squares Regression fit to obtain these curves.</p>
+                	<p align="center">
+	                	<img src="img/asia_europe_america_with_russia_03.png" width="300px">
+	                	<img src="img/lingertime_4.png" width="300px">
+	                	<img src="img/session_time_analysis_07.png" width="300px">
+                	</p>   
+                	
+                	<p>We also looked at the changes in number of users in different countries between 2011 and 2012. Note that since we only have data for 9 months in 2012 at the time of writing, these are not the final numbers, but they can be considered to show the trend. Figure one (in pink) shows the changes as a percentage and Figure two (in blue) shows the absolute numbers.</p>
+                	<p align="center">
+	                	<img src="img/dht_country_trend_1.png" width="450px">
+	                	<img src="img/dht_country_trend_2.png" width="450px">
+                	</p>  
+                	                	
+                	<p>In the overall system, there is a very clear seasonal trend where the activity peaks in the Spring and is at its lowest in the Summer. Interestingly, weekends are much busier during Fall, Winter, and Spring, whereas during Summer there is no marked difference between weekends and weekdays. However, we observed that this pattern was very much country-specific. For example, in the US and Korea, there was no observable difference between weekends and weekdays at any time during the year, whereas European countries exhibited the behavior shown in Figure.</p>
+                	<p align="center">
+	                	<img src="img/dht_monthly_average_1.png" width="700px">
+                	</p>  
+                	
+                	<p>In order to analyze the number of users in the system, we took samples from March 2011 and 2012 and calculated their autocorrelations. These are shown in Figure 10, separately for both months. We take the first week in March of the both 2011 and 2012 (same as in Figure 7), then we calculate autocorrelation on each of them respectively. The most striking discovery is that the autocorrelation is practically identical for the two months, even though the average number of users has gone up by almost 3 million. However, since autocorrelation measures the similarity of a sequence to itself as a function of time separation, this simply implies that even though the number of users has increased, the behavior of users is statistically “identical”. In other words, this might suggest that there may be a typical behavioral pattern of a MLDHT user; alternatively, a large number of automated bots as users could also explain this phenomenon. Further studies would be needed to ascertain the reasons behind this</p>
+                	<p align="center">
+	                	<img src="img/dht_sys_20110307.png" width="400px">
+	                	<img src="img/dht_sys_20120305.png" width="400px">
+                	</p> 
+
+                </div>
+            </div>
+            
+            
+            
+            
+            <div class="row">
+                <div class="span" id="dataset">
+                	<h3>Dataset</h3>
+                	<p>Due to the size of the datasets, we only provide a sample dataset <a href="./data/">[HERE]</a>. More data can be requested by contacting <a href="http://cs.helsinki.fi/liang.wang">Liang Wang</a>.</p>
+			<p>To use our dataset, please refer to our paper "<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6688697">Measuring Large-Scale Distributed Systems: Case of BitTorrent Mainline DHT</a>, IEEE P2P 2013, Turin, Italy" </p>
+			<p><a href="reference.bib">[BibTex]</a>  <a href="reference.txt">[Plain Text]</a> </p>
+                </div>
+            </div>
+            
+
+
+            <hr>
+
+            <footer>
+                <p>&copy; <a href="http://cs.helsinki.fi/liang.wang">Liang Wang</a>, Department of Computer Science, University of Helsinki, 2013</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-3284249-2'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
