@@ -1,0 +1,90 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="keywords" content="Liang Wang, Monitor, Ukko Cluster, High performance cluster, Department of Computer Science, University of Helsinki, Finland">
+    <meta name="author" content="Liang Wang">
+    <title>Ukko Cluster Monitor, Department of Computer Science, University of Helsinki, Finland</title>
+</head>
+
+<body>
+
+<h1>Ukko Cluster Monitor</h1>
+
+
+<h2>Introduction</h2>
+<p>
+This code snippet can be used to monitor the Ukko cluster in the Department of Computer Science, 
+University of Helsinki. Ukko cluster is a fundamental high performance computing facility shared by all
+the researchers and students in the CS department. Every day, there are various experiments and tasks 
+performed on Ukko.
+</p>
+
+<p>
+This lightweight monitor can provide you with basic realtime stats of Ukko cluster. The software uses about
+60KiB/s of your bandwidth.
+</p>
+
+
+<h2>How to run it?</h2>
+
+<p>
+Make sure you run it within our department network, or you cannot receive any state updates of the
+nodes. What's more, make sure you have wxPython installed on you machine. If you run the application
+on Melkki or on the department workstations, then you needn't worry about this issue since the wxPython
+has already been installed.
+</p>
+
+<p>
+Last but not least, it is recommended that you run the application on a machine with large display. Since
+the application will detect the size of the display area, if the display area is too small, some stats
+will be hidden and only summary information will be shown. So, please maximize the application when you
+run it, :)
+</p>
+
+<p>
+Download the <a href="monitor.py">Monitor</a>, run <span style="font-weight:bold; color:red;"> python monitor.py </span>,
+then enjoy! :)
+</p>
+
+<p>
+If you still have problems or suggestions, please email me at <b> Liang.Wang [at] helsinki.fi </b>
+</p>
+
+
+<h2>Screenshots</h2>
+
+<a href="../images/screenshot-1.png"><img src="../images/screenshot-1.png" style="width:20%;"></a>
+<a href="../images/screenshot-2.png"><img src="../images/screenshot-2.png" style="width:20%;"></a>
+
+
+
+<h2>Source Code</h2>
+
+<p>
+<a href="monitor.py">[Download]</a>
+</p>
+
+
+
+<div style="width:100%; margin:1em 0 1em 0; text-align:center;">
+<a href="http://cs.helsinki.fi/liang.wang/">Home</a>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3284249-2']);
+  _gaq.(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+
+</html>

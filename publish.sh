@@ -2,4 +2,4 @@
 
 rm *~
 
-scp -r * shell.hiit.fi:~/public_html/
+scp -i ~/.ssh/id_cam -r * lw525@slogin.cl.cam.ac.uk:/home/lw525/public_html/
