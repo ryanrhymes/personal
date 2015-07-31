@@ -119,18 +119,18 @@
 	            <div class="span">
 	            	<h2 class="hcls">Contact</h2>
 	            	<p>For the detailed information of LiteLab and information on how you can download it, please contact following people:</p>
-                
+                <div class="span5">
+                    <p><b>Liang Wang</b>, Ph.D., Research Associate <br/>
+                    Computer Laboratory, Cambridge University.</p>
+                    <p><a class="btn" href="http://www.cl.cam.ac.uk/~lw525/LiteLab/">Contact Information &raquo;</a></p>
+                </div>
+
                 <div class="span5">
                     <p><b>Prof. Jussi Kangasharju</b>, Professor <br/>
                     Department of Computer Science, University of Helsinki.</p>
                     <p><a class="btn" href="http://www.cs.helsinki.fi/u/jakangas/">Contact Information &raquo;</a></p>
                 </div>
                 
-                <div class="span5">
-                    <p><b>Liang Wang</b>, PhD. student <br/>
-                    Department of Computer Science, University of Helsinki.</p>
-                    <p><a class="btn" href="http://www.cs.helsinki.fi/u/lxwang/">Contact Information &raquo;</a></p>
-                </div>
 	            </div>
 	        </div>
             
