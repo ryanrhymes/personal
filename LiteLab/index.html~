@@ -57,7 +57,7 @@
                 <h1>LiteLab Platform</h1>
                 <p></p>
                 <p>LiteLab is a light-weight platform specialized for large-scale networking experiments. It takes advantages of overlay network techniques and power of computing cluster, providing a flexible experiment platform with many uses. LiteLab helps researchers reduce the experiment complexity and speeds up experiment life-cycle, and at the same time, provides satisfying accuracy.</p>
-                <p>Download technical report: "<a href="http://www.cs.helsinki.fi/u/jakangas/LiteLab/litelab-embedded.pdf">LiteLab: Efficient Large-scale Network Experiments</a>"</p>
+                <p>Download technical report: "<a href="http://www.cl.cam.ac.uk/~lw525/LiteLab/litelab-embedded.pdf">LiteLab: Efficient Large-scale Network Experiments</a>"</p>
                 <p>Download source code: <a href="https://github.com/ryanrhymes/litelab">LiteLab code @ Github</a></p>
             </div>
 
