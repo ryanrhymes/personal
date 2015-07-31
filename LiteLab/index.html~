@@ -41,6 +41,8 @@
                                     <li><a href="#resources">Smart Resources Management</a></li>
                                 </ul>
                             </li>
+                            <li><a href="https://github.com/ryanrhymes/litelab">Source Code</a></li>
+                            <li><a href="http://www.cs.helsinki.fi/u/jakangas/LiteLab/litelab-embedded.pdf">Tech-Report</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -55,6 +57,8 @@
                 <h1>LiteLab Platform</h1>
                 <p></p>
                 <p>LiteLab is a light-weight platform specialized for large-scale networking experiments. It takes advantages of overlay network techniques and power of computing cluster, providing a flexible experiment platform with many uses. LiteLab helps researchers reduce the experiment complexity and speeds up experiment life-cycle, and at the same time, provides satisfying accuracy.</p>
+                <p>Download technical report: "<a href="http://www.cs.helsinki.fi/u/jakangas/LiteLab/litelab-embedded.pdf">LiteLab: Efficient Large-scale Network Experiments</a>"</p>
+                <p>Download source code: <a href="https://github.com/ryanrhymes/litelab">LiteLab code @ Github</a></p>
             </div>
 
             
@@ -114,7 +118,7 @@
             <div class="row" id="contact">
 	            <div class="span">
 	            	<h2 class="hcls">Contact</h2>
-	            	<p>For the detailed information of LiteLab, you can contact following people:</p>
+	            	<p>For the detailed information of LiteLab and information on how you can download it, please contact following people:</p>
                 
                 <div class="span5">
                     <p><b>Prof. Jussi Kangasharju</b>, Professor <br/>
@@ -147,7 +151,7 @@
         <script src="js/main.js"></script>
 
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            var _gaq=[['_setAccount','UA-3284249-2'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
